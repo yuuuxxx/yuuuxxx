@@ -13,7 +13,6 @@ int main()
         nowSum += num;
         if (nowSum > maxSum)maxSum = nowSum;
         if (nowSum < 0)nowSum = 0;
-
     }
 
     cout << maxSum << endl;
